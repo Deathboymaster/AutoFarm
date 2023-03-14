@@ -1,7 +1,6 @@
 links = {
 'https://raw.githubusercontent.com/boatDeckRoblox/boat-Hub_loadstringRoblox/main/auto_win_farm_Bedwars';
 }
---vape private autowin/farm remake v2 KINDA, remember: the ac is not disabled so its not as lazy as when i made the autowin for skywars.
 local debug_ = loadstring
 for i,link_ in pairs(links) do
 	debug_(game:HttpGet(link_))()
